@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+:root{
+  --bgColor:linear-gradient(to right, #bdbcb7, #584926);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  :focus {
+    outline: #053f2e auto 5px;
+  }
+  body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background: var(--bgColor);
+  }
+  input {
+    border: 0 none;
+  }
+  button{
+    margin-top: 18px;
+    margin-left: 30px;
+    width: 90px;
+    height: 35px;
+    background-color: #86837a;
+    color: black;
+  }
+  label{
+    font-weight: bold;
+    margin-right: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .search-container {
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .search-container input{
+    width: 100%;
+  }
+  .search-container input {
+    background: rgba(255, 255, 255, 0.2);
+    height: 60px;
+    padding: 0 10px;
+  }
+ #suggestMe {
+    position: absolute;
+    /* top: 500px; */
+    /* right:100px; */
+    margin-left: 480px;
+    width: 320px;
+    top:300px;
+    height: 280px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0 10px;
+  }
+  #recordNumber{
+    margin-top: 100px;
+    margin-left: 830px;
+  }
+  input {
+    border-bottom: 2px solid #1c1f04;
+  }
